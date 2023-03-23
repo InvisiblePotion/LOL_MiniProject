@@ -6,9 +6,9 @@ import random
 from tqdm import tqdm
 
 dsn = cx_Oracle.makedsn('localhost', 1521, 'xe')
-seoul_api_key = '65674a4b6c6d69693437644378696d'
+seoul_api_key = '(인증키)'
 
-riot_api_key = 'RGAPI-51c1deec-4b56-4c7a-948e-2932f639315f'
+riot_api_key = '(인증키)'
 
 
 def db_open():
